@@ -5,6 +5,6 @@ if exists("b:current_syntax")
   finish
 endif
 
-syn keyword abstract sig one extends set
+syn keyword alloyKeywords abstract sig one extends set
 
 let b:current_syntax = "alloy"
