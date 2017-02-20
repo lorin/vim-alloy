@@ -7,4 +7,7 @@ endif
 
 syn keyword alloyKeywords abstract sig one extends set
 
+
+hi def link alloyKeywords Keyword
+
 let b:current_syntax = "alloy"
